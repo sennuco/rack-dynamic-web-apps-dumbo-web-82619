@@ -1,9 +1,12 @@
 class Application
-
+  
   def call(env)
-    resp = Rack::Response.new
-    resp.write "Hello, World"
-    resp.finish
-  end
+    resp = Rack::Response.new 
+    
+    num_1 = Kernel.rand(1..20)
+  #   resp.write "Hello, World"
+  #   resp.finish
+  # end
 
 end
+
