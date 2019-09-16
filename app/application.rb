@@ -8,7 +8,10 @@ class Application
     num_3 = Kernel.rand(1..20)
     
     resp.write "#{num_1}"
-    resp.write "#{num_1}"
+    resp.write "#{num_2}"
+    resp.write "#{num_3}"
+    
+    
     resp.finish
   end
 
