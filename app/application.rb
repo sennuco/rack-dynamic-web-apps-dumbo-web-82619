@@ -12,8 +12,8 @@ class Application
     resp.write "#{num_3}"
     
     
-    resp.finish
+   
   end
-
+ resp.finish
 end
 
