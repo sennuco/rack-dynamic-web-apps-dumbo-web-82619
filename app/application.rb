@@ -7,8 +7,8 @@ class Application
     num_2 = Kernel.rand(1..20)
     num_3 = Kernel.rand(1..20)
     
-    resp.write 
-    resp.write 
+    resp.write "#{num_1}"
+    resp.write "#{num_1}"
     resp.finish
   end
 
